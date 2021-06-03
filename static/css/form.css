@@ -1,0 +1,80 @@
+.control-group input, .control-group select{
+    width:100%;
+}
+.control-group{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-bottom: 1px solid #CCC;
+}
+
+.form-for-nhs, .card, .card-header{
+    width: 50vw;
+}
+
+.checkboxinput{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.checkboxinputinput{
+    margin-top: 0.6vh;
+}
+/* Customize the label (the controls) */
+.controls {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Create a custom checkboxinput */
+  .checkboxinput {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* Create the checkboxinput/indicator (hidden when not checked) */
+  .checkboxinput:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Style the checkboxinput/indicator */
+  .controls .checkboxinput:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+@media only screen and (max-width: 850px) {
+    .form-for-nhs, .card, .card-header{
+        width: 60vw;
+  }
+    .card{
+        width: 60vw;
+  }
+    /* Create a custom checkboxinput */
+    .checkboxinput {
+        position: absolute;
+        top: 0;
+        left: 80px;
+        height: 25px;
+     }
+}

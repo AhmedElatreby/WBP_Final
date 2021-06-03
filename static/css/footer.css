@@ -1,0 +1,374 @@
+@media only screen and (max-width: 491px) {
+    .detail {
+        display: none;
+    }
+
+    .decoration {
+        max-width: 112.5px;
+    }
+}
+
+
+.stylish-links {
+    text-decoration: inherit;
+    color: #005EB8;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-height:300px;
+}
+
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom:310px;
+}
+
+#CQCroundup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Dorsetroundup {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+/* Footer with address/social */
+#footer-addr {
+    background-color:
+        #00A9CE;
+    /* padding-bottom: 20px; */
+    color: #FFF;
+    scroll-padding-bottom: auto;
+}
+
+#footer-addr a {
+    color: #FFF;
+}
+
+#footer-addr h4 {
+    color: #FFF;
+}
+
+ul.footer-addr {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footericons {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.footericons-left {
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin-left: 30px;
+}
+
+.iconsa,
+.iconsa:hover {
+    text-decoration: none;
+}
+
+.FooterMedia {
+    float: right;
+}
+
+/* Footer*/
+#footer {
+    background-color: #0072CE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFF;
+}
+
+#footer a {
+    color: #FFF;
+}
+
+ul.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px
+}
+
+ul.footer>li {
+    display: inline;
+    margin-left: 10px
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+    .InfoBoxHome-content ul li p {
+        padding: 6px 6px 6px 12px;
+        font-size: 16px;
+    }
+
+    .InfoBoxHome h2 {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .InfoBoxHome-Red p,
+    .InfoBoxHome-other p {
+        font-size: 1.3em;
+        line-height: 1;
+        padding: 12px 0px 1px 0px;
+    }
+}
+
+/* portrait for ipads  */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+
+    .NHSbranding {
+        padding-top: 10px;
+    }
+
+    .sitebrandingvalues {
+        padding-bottom: 10px;
+    }
+
+    .sitebranding {
+        width: 50%;
+        padding-top: 2px;
+    }
+
+
+
+    .row-fluid .HomepageSpan {
+        width: 100%;
+        *width: 99.94680851063829%;
+    }
+
+    .InfoBoxHome,
+    .InfoBoxHome-Red,
+    .InfoBoxHome-other {
+        width: 100%;
+        margin-bottom: 2px;
+        margin-top: 4px;
+        margin-left: -20px;
+        padding-right: 20px;
+        overflow: hidden;
+    }
+
+    .InfoBoxHome-Red {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    form.SearchNavBar {
+        padding-right: 20px;
+    }
+
+    form.SearchNavBar input[type=text] {
+        padding: 5px;
+        font-size: 16px;
+        width: 45%;
+        height: 30px;
+        margin-top: 6px;
+    }
+
+    .footericons-left {
+        width: 45px;
+        height: 45px;
+        margin-left: 2px;
+    }
+
+    .footericons {
+        width: 45px;
+        height: 45px;
+    }
+
+
+    .CQCbutton {
+        display: none;
+    }
+}
+
+
+
+/* between small mobile and tablets/ landscape phones */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    body {
+        padding-top: 0px;
+    }
+
+    .NHSbranding {
+        padding-top: 0px;
+        margin-top: -25px;
+    }
+
+    .sitebrandingvalues {
+        display: none !important;
+    }
+
+    .sitebranding {
+        width: 40%;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+
+    .NAVrbch {
+        display: none !important;
+    }
+
+
+    .AccessNavBar {
+        margin-left: -25px;
+    }
+
+
+
+    #footer-addr,
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .pull-right {
+        float: left;
+    }
+
+    .FooterMedia {
+        float: left;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding-top: 0px;
+    }
+
+    .FullWidthSplash {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .NHSbranding {
+        padding-top: 0px;
+        margin-top: -25px;
+    }
+
+    .sitebrandingvalues {
+        display: none !important;
+    }
+
+    .sitebranding {
+        width: 60%;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+
+    .NAVrbch {
+        display: none !important;
+    }
+
+    .InfoBoxHome-Red {
+        margin-top: -10px;
+    }
+
+    .InfoBoxHome-other {
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
+    .InfoBoxHome {
+        margin-top: 5px;
+    }
+
+    form.SearchNavBar input[type=text] {
+        padding: 6px;
+        width: 85%;
+        height: 40px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    form.SearchNavBar button {
+        width: 12%;
+        padding: 9px;
+        margin-left: 0px;
+        margin-right: 6px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+
+
+    .FooterMedia {
+        float: left;
+    }
+
+
+    .pull-right {
+        float: left;
+    }
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fab,
+.far {
+    font-weight: 400;
+}
+
+.fa-sm {
+    font-size: .875em;
+}
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+/* styling back to the top button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 114, 206);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+/* When hover over back to the top button */
+#myBtn:hover {
+    background-color: rgb(0, 94, 184);
+}

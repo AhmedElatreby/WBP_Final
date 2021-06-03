@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    {% load crispy_forms_tags %}
+    <div class="container d-flex justify-content-center">
+        {% if not user.is_authenticated %}
+            <div class="form-for-nhs mt-2">
+                <div class="card-header nhs-blue-text">
+                    <span class="ml-4"><strong>Login</strong></span>
+                </div>
+                <form method="POST" class="form-group border font-weight-normal">
+                    {% csrf_token %}
+                    {{form|crispy}}
+                    <button style="width:100%;" type="submit" class="btn btn-primary nhs-blue-text text-center p-2">Login</button>
+                </form>
+            </div>
+        {% elif user.is_authenticated and 'next' in request.GET %}
+            <div class="form-for-nhs mt-2">
+                <div class="card-header nhs-blue-text">
+                    <span class="ml-4"><strong>You are not authorized to access this page, please logout to try again</strong></span>
+                </div>
+            </div>
+        {% else %}
+            <div class="form-for-nhs mt-2">
+                <div class="card-header nhs-blue-text">
+                    <span class="ml-4"><strong>You are already logged in.</strong></span>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}
